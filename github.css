@@ -1,0 +1,42 @@
+/* Style général du body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f8fa;
+  color: #24292e;
+}
+
+/* Section principale */
+.hero {
+  padding: 40px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+}
+
+/* Style du tableau */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Style des cellules */
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #d0d7de;
+  font-size: 16px;
+}
+
+/* En-têtes de colonnes */
+tr:first-child td {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Hover sur les lignes (optionnel) */
+tr:not(:first-child):hover {
+  background-color: #f0f0f0;
+}
